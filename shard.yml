@@ -1,0 +1,26 @@
+name: http-server-noop
+version: 0.1.0
+
+targets:
+  web:
+    main: main.cr
+
+# description: |
+#   Short description of http-server-noop
+
+dependencies:
+  kemal:
+    github: kemalcr/kemal
+  healthcheck_handler:
+    github: qbart/kemal-healthcheck-handler
+
+# dependencies:
+#   pg:
+#     github: will/crystal-pg
+#     version: "~> 0.5"
+
+# development_dependencies:
+#   webmock:
+#     github: manastech/webmock.cr
+
+# license: MIT
